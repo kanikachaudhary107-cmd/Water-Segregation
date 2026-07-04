@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Water Segregation System</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/4e6f5d90f3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="loader">
+    <div class="drop"></div>
+    <h2>Loading Smart Water System...</h2>
+</div>
+
+<header>
+
+<nav>
+
+<h1>💧 Smart Water Segregation</h1>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#working">Working</a></li>
+
+<li><a href="#simulation">Simulation</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="modeBtn">🌙</button>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h2>AI Based Water Segregation System</h2>
+
+<p>
+
+Separate Clean Water and Dirty Water
+
+using Smart Simulation.
+
+</p>
+
+<button class="startBtn">
+
+Start Simulation
+
+</button>
+
+</div>
+
+<div class="right">
+
+<div class="tank">
+
+<div class="water"></div>
+
+</div>
+
+</div>
+
+</section>
+
+</header>
+
+<section id="about">
+
+<h2>About Project</h2>
+
+<p>
+
+This Smart Water Segregation System demonstrates
+
+how clean and contaminated water can be separated
+
+through intelligent processing.
+
+</p>
+
+</section>
+
+<section id="working">
+
+<h2>Working Process</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Step 1</h3>
+
+<p>Collect Water</p>
+
+</div>
+
+<div class="card">
+
+<h3>Step 2</h3>
+
+<p>Analyze Quality</p>
+
+</div>
+
+<div class="card">
+
+<h3>Step 3</h3>
+
+<p>Separate Water</p>
+
+</div>
+
+<div class="card">
+
+<h3>Step 4</h3>
+
+<p>Display Result</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="simulation">
+
+<h2>Live Simulation</h2>
+
+<div class="simulationBox">
+
+<div class="dirtyTank">
+
+<h3>Dirty Water</h3>
+
+</div>
+
+<div class="filter">
+
+⚙️
+
+</div>
+
+<div class="cleanTank">
+
+<h3>Clean Water</h3>
+
+</div>
+
+</div>
+
+<button id="simulate">
+
+Run Simulation
+
+</button>
+
+</section>
+
+<section id="result">
+
+<h2>Water Report</h2>
+
+<div class="report">
+
+<p>Purity : <span id="purity">0%</span></p>
+
+<p>TDS : <span id="tds">0 ppm</span></p>
+
+<p>Status : <span id="status">Waiting...</span></p>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2>Developed By</h2>
+
+<p>Kanika Chaudhary</p>
+
+<p>Frontend Developer</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
